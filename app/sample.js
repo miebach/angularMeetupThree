@@ -1,0 +1,1 @@
+'use strict';angular	.module('appName', [	'module1',	'module2',	'module3'], ['$interpolateProvider', function ($interpolateProvider) {		$interpolateProvider.startSymbol('%%');		$interpolateProvider.endSymbol('%%');	}]);
